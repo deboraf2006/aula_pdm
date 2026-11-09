@@ -1,6 +1,5 @@
 //A page reage a mudança de  estado: é a interface
 import 'package:aula01/features/chat/domain/entities/conversa.dart';
-import 'package:aula01/features/chat/infra/data/conversa_repository.dart';
 import 'package:aula01/features/chat/presentation/bloc/conversa_list_bloc.dart';
 import 'package:aula01/features/chat/presentation/bloc/conversa_list_event.dart';
 import 'package:aula01/features/chat/presentation/bloc/conversa_list_state.dart';

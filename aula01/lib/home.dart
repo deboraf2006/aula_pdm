@@ -1,4 +1,5 @@
 import 'package:aula01/features/chat/presentation/pages/conversa_list_page.dart';
+import 'package:aula01/features/chat/store/presentation/pages/product_list_page.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -30,6 +31,23 @@ class MyHomePage extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                           builder: (context) => ConversaListPage(),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              ),
+              Card(
+                elevation: 0.5,
+                child: ListTile(
+                  title: Text('E-comerce'),
+                  trailing: IconButton(
+                    icon: Icon(Icons.arrow_forward),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ProductListPage(),
                         ),
                       );
                     },
